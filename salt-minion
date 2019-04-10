@@ -17,7 +17,7 @@
 # chkconfig: 345 99 99
 # description:  This is a daemon that controls the salt mininons
 #
-# processname: /usr/bin/salt-minion
+# processname: /usr/local/python3/bin/salt-minion
 
 SERVICE=salt-minion
 PROCESS="/usr/local/python3/bin/$SERVICE"
